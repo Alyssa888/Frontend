@@ -37,14 +37,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.flemmingmusic.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepage  
+  <img src="readme-images/home.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  shop  
+  <img src="readme-images/shop.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -54,9 +55,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+Voice over test: de website is over het algemeen toegankelijk met voice over, knoppen worden voorgelezen, links worden benoemd, alleen de tekst in afbeeldingen word niet voorgelezen en de alt tekst van producten kan uitgebreider.
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  pluspunten:
+  -duidelijke taal
+  -links zijn toegankelijk
+  -scrollen gaat goed
+  -video's zijn toegankelijk
+  -links zien eruit als links, alleen een paar zijn niet duidelijk
+   
+   minpunten:
+   -122 waarschuwingen
+   -4 errors
+   -sommige knoppen te klein
+   -geen list elements
+   -alt tektst beschrijft afbeelding niet goed
+   -labels van plaatjes missen, staan in een div
+   -maakt geen gebruik van darkmode
+   -Grote gele tekst oogt raar met hoog contrast
 
 </details>
 
