@@ -86,7 +86,9 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/home-breakdown-schets.jpeg" width="375px" alt="breakdown van de home pagina">
+  <img src="readme-images/home-breakdown-schets2.jpeg" width="375px" alt="breakdown van de home pagina #2">
+  <img src="readme-images/shop-breakdown-schets.jpeg" width="375px" alt="breakdown van de shop pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -106,17 +108,18 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Flexbox ging me best goed af, Javascript ging oke, alleen de grid vond ik best lastig. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Andrea           | Penelope           | Louiza       | Alyssa        |
+  | ---              | ---                | ---          | ---           |
+  | Font inladen,    | ?                  | ?            | banner met    |
+  |waar zijn fonts   |                    |              |bewegende tekst|
+  |te vinden?        |                    |              |               |
+  
 
 
   ### Verslag van meeting
