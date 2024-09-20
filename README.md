@@ -91,7 +91,7 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <img src="readme-images/shop-breakdown-schets.jpeg" width="375px" alt="breakdown van de shop pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-breakdown-schets.jpeg" width="375px" alt="breakdown van het hamburger menu">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
