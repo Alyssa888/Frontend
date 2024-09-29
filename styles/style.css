@@ -5,7 +5,9 @@
   box-sizing:border-box;  
 }
 
-
+button:not(disabled) {
+  cursor:pointer;
+}
 
 
 
@@ -19,7 +21,23 @@
 	--color-background:#eee;
 }
 
+:root {
+  --general-color:#012;
+  --general-background:#fff;
+  
+  --button-color:#fff;
+  --button-background:#BC00D8;
+  
+  
+}
 
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+body {
+  margin:0;
+}
 
 
 
@@ -28,8 +46,197 @@
 /****************/
 
 /* jouw code */
+
+/******************************************************/
+/* styling voor de small-screen versie van de website */
+/******************************************************/
+
+/*************/
+/* DE HEADER */
+/*************/
 header {
-background-color: black;	
+  height:5.5em;
+  padding:0 1em;
+ 
+  
+  /* JOUW CODE HIER - stap 3 */
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+  position:sticky;
+  top:0;
+}
+
+/* alle links in de header */
+header a {
+  padding:.5em 0;
+  color:var(--general-color);
+  text-decoration:none;
+}
+
+/********/
+/* LOGO */
+/********/
+header > a:first-of-type {
+  /* om het boek en de titel te positioneren */
+  display:grid;
+  grid-template-columns:min-content min-content;
+  grid-gap:.25em;
+  align-items:center;
+  
+  font-weight:bold; 
+}
+
+header > a:first-of-type img {
+  height:3em;
+}
+
+/**********/
+/* FAVO's */
+/**********/
+header > a:last-of-type {
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  column-gap:.25em;
+}
+
+/* link icon */
+header > a:last-of-type img {
+  width:auto;
+  height:2em;
+}
+/*****************/
+/* BEIDE BUTTONS */
+/*****************/
+header button {
+  padding:.5em;
+  
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  gap:.25em;
+  
+  /* standaard styling aanpassen */
+  appearance:none;
+  background-color:var(--button-background);
+  border:none;
+  border-radius:.25em; 
+  font:inherit;
+  text-align:center;
+  color:var(--button-color);
+}
+
+header button img {
+  height:1em;
+}
+
+/***************/
+/* MENU BUTTON */
+/***************/
+header > button {
+  /* JOUW CODE HIER - stap 3 */
+  order: 3;
+}
+/***************/
+/* SLUIT BUTTON */
+/***************/
+nav button {
+  justify-self:start;
+ }
+ /************/
+/* HET MENU */
+/************/
+nav {
+  padding:1em;
+  background-color: #404040;
+  display:grid;
+  align-content:start;
+  gap:1em;
+  
+  
+  
+  /* JOUW CODE HIER - stap 1 */
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width: 100%;
+  
+  /* JOUW CODE HIER - stap 2 */
+  translate: -100% 0%;
+  
+  /* JOUW CODE HIER - stap 4 */
+  transition:translate .3s;
+}
+
+/* als menu open is */
+nav.toonMenu {
+  /* JOUW CODE HIER - stap 4 */
+  translate: 0% 0%;
+  color: white;
+  width: 100vw;
+
+}
+
+/*******************/
+/* LIJST MET LINKS */
+/*******************/
+nav ul { 
+  margin:0; 
+  padding:0em;
+  list-style:none;
+  
+}
+
+/************************/
+/* EEN LINK IN DE LIJST */
+/************************/
+nav a {
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  column-gap:.25em;
+  color: white;
+  
+  
+}
+
+nav a img {
+  width:auto;
+  height:2em;
+}
+
+nav a.active {
+  font-weight:bold;
+}
+
+.regular {
+  font-family: "Montserrat", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.bold {
+  font-family: "Montserrat", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.extrab {
+  font-family: "Montserrat", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+header {
+background-color:#404040;	
 }
 
 img {
@@ -37,5 +244,154 @@ max-width: 100%;
 }
 
 body {
-background-color: aqua;	
+background-color: #1A1A1A;	
+
+}
+
+@keyframes slide {
+	from {transform: translateX(0)
+	}
+	
+	to {transform: translateX(-100%)
+	}	
+	}
+	/* Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p> */
+
+  .geel {
+    color:#F3E4A3;
+    }
+ 
+nav {
+	display: flex;
+	width: 25.6em;
+	height: 5.6em;
+	justify-content: center;
+	
+	
+  }
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+/* Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p> */
+  .song {
+  padding: 0.44em 0;
+  background-color: white;
+  white-space: nowrap;
+  
+  
+  }
+  /* Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p> */
+
+  .song-slide {
+  display: flex;
+  flex-direction: row;
+  animation: 10000ms slide infinite linear;
+  gap: .2em;
+  
+  }
+/* Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p> */
+
+  /* .song-slide img {
+  margin: 0 0.5em;
+  width: 1.5em;
+  height: 1.5em;
+  display: block;
+  
+
+  } */
+  /* Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p> */
+
+  .flex-container {
+   display: flex;
+  justify-content: center;
+  gap: 1.5em;
+
+  }
+
+  .rond img {
+  border-radius: 5%;
+  }
+
+  .wit {
+  background-color: white;  
+  }
+
+  .grijs {
+
+  color: #7a7a7a;
+  
+  }
+
+  .grey {
+   background-color:#F8F8F8;
+  }
+  .blauw {
+  background-color: #0051B8;  
+  }
+
+  .tekst {
+  color: white;
+  }
+
+  .limited {
+  background-color: #BC00D8;
+  color: white;  
+  }
+
+  .tour {
+   background-color: #FF0000; 
+   color: white;
+  }
+
+
+.pad1 {
+padding: 0.7em; 
+}
+
+.pad2 {
+padding: 2em;  
+}
+
+.wrapper {
+display: grid;
+grid-template-columns: 180px;
+grid-column-gap: 5px;
+
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.button {
+  margin: 0.5em;
+  background-color: #F3E4A3;
+  border-radius: 1em;
+  padding: 0.8em;
+  display: flex;
+  justify-content: center;
+  
+
+
+}
+
+.lees {
+text-decoration: none;
+}
+
+.padding-horizontal {
+padding-left: 1.6em; 
+padding-top: 0.7em;
+padding-bottom: 0.05em;
+
+}
+.youtube {
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
 }

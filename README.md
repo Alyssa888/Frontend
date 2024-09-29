@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   homepage  
-  <img src="readme-images/home.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/FireShot Capture- Homepage.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   shop  
-  <img src="readme-images/shop.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/FireShot Capture-Shop.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -94,7 +94,7 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <img src="readme-images/menu-breakdown-schets.jpeg" width="375px" alt="breakdown van het hamburger menu">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
@@ -125,10 +125,13 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Feedback: 
+  -witregels in code toepassen
+  -alt tekst aanpassen
+  -toegankelijkheid verwerken
+
+  Tips:
+  -misschien van social media logo's svg's maken. 
 
 </details>
 
@@ -142,26 +145,30 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Grid vind ik nog steeds erg lastig.
+  Als ik de video bekijk, snap ik hoe het werkt, maar zodra ik moet coderen weet ik niet goed waar ik moet beginnen (waar ik de code in mijn Css neer moet zetten). (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Andrea           | Penelope           | Louiza       | Alyssa        |
+  | ---              | ---                | ---          | ---           
+  |                  | ?                  |carousel maken|  fonts inladen, hoe button en link vormgeven,
+  |                  |                    |              |  wat zijn eisen voor toegankelijkheid, hoe pas ik grid toe,
+  |                  |                    |              |  moet hamburgermenu responsive zijn?
+  |                  |                    |              |
+  |                  |                    |              |               
+  
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - font inladen via Googlefonts
+  - link die eruit ziet als button wel <a> tag geven, maar met padding stylen
+  - alt tekts, geen tekst in afbeeldingen, links weergeven als links (<a>) (zie https://www.a11yproject.com/checklist/ voor basis toegankelijkheid)
+
 
 </details>
 
@@ -176,7 +183,12 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ Positieve uitkomst:
+ -alt tektsen bij afbeeldingen werden voorgelezen
+ -tekst op buttons werd voorgelezen
+ -het was mogelijk om overal doorheen te gaan met tab
 
+ Alle elementen op de website konden door de screenreader gevonden en voorgelezen worden.
 </details>
 
 
@@ -189,27 +201,34 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het gaat de goede kant op, er moeten nog wat elementen ingevoegd worden, maar de website krijgt steeds meer vorm en begint steeds meer te lijken op de originele. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Andrea           | Penelope           | Louiza       | Alyssa        |
+  | ---              | ---                | ---          | ---           |
+  |                  | ?                  |carousel maken| hoe padding verwijderen menu buttons, erros weghalen.
+  |                  |                    |              |  
+  |                  |                    |              |  
+  |                  |                    |              |
+  |                  |                    |              |               
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - om 'padding' te verwijderen achtergrond kleur aanpassen
+  - Css elementen weghalen uit HTML, errors over iframes en translate negeren
 
+Feedback:
+-buttons die links zijn, <a> tag geven
+-nieuws artikelen <section> en <article> tag geven
+-footer <ul> met <li> (toevoegen)
+-custom properties toepassen
+-pixels weghalen
+-timetag toepassen 
 </details>
 
 
@@ -222,19 +241,29 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Ik had wat problemen met Fireshot waardoor het niet lukte om screenshots te maken van de pagina's.
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb geleerd hoe ik een carousel met bewegende tekst kan maken, hoe ik video's kan embedden, links in afbeeldingen kan embedden, een hamburger menu maak en verschillende versies van een font in kan laden. Flexbox ging me goed af.
+ <img src="readme-images/tekst-carousel.png" width="375px" alt="tekst carousel">
+  <img src="readme-images/embedded-video.png" width="375px" alt="embedded YouTube video">
+   <img src="readme-images/embedded-socials.png" width="375px" alt="klikbare socials met embedded link">
+    <img src="readme-images/hamburger.png" width="375px" alt="hamburger menu dicht">
+    <img src="readme-images/hamburger-2.png" width="375px" alt="hamburger menu open">
+  
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ondanks dat ik bij het laatste feedback gesprek in de veronderstelling was dat het me zou lukken om de website tijdig af te krijgen, is het me niet gelukt. Er waren heel veel elementen op mijn website die allemaal een andere opmaak nodig hadden en daardoor heb ik ontelbare classes aan gemaakt wat waarschijnlijk niet de meest efficiënte manier is. Daarnaast hadden veel verschillende elementen ook allemaal andere padding en ik wilde niet nog meer classes aan maken, vandaar dat de padding op sommige plekken niet toegepast is. Ik wist namelijk niet hoe ik het anders kon oplossen. Hetzelfde geld voor sommige kopjes die een andere kleur hebben. Ik had ook geprobeerd om een grid toe te passen bij de shop pagina, maar het lukt me nog steeds niet om een grid te maken, ik vind het erg lastig en ik weet niet goed waar ik moet beginnen met maken ervan. Ook had ik geen tijd meer om een carousel te maken met een preview van de shop. Kort samen gevat, ik heb heel erg mijn best gedaan, maar ik liep op het laatste moment heel erg vast en ik heb extra hulp nodig om mijn website af te kunnen maken.
+  <img src="readme-images/geen-padding.png" width="375px" alt="geen padding">
+  <img src="readme-images/carousel.png" width="375px" alt="afbeeldingen die in de carousel moeten">
+  <img src="readme-images/mislukte-grid.png" width="375px" alt="grid is niet gelukt">
+  
 </details>
 
 
@@ -250,8 +279,12 @@ Voice over test: de website is over het algemeen toegankelijk met voice over, kn
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Bron: Adonnah, link in afbeelding embedden, <img src="readme-images/code-adonnah.jpeg">
+  2. Bron: https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=325s&ab_channel=CodingwithRobby <p>Logo carousel with CSS</p>
+  3. Bron: Google help, video embedden, https://support.google.com/youtube/answer/171780?hl=en#:~:text=Embed%20a%20video%20or%20playlist&text=From%20the%20list%20of%20Share,com%20to%20the%20firewall%20allowlist
+  4. Bron: Spotify for developers, playlist embedden, https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed
+  5. Bron: mdn web docs ,time tag, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time 
+  
+
 
 </details>

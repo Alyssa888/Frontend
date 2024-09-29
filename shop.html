@@ -1,77 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FLEMMING - de officiële website</title>
     <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/flemming-logo-zwart.png">
+
 </head>
 
 <body>
 
-<nav> <h1>Flemming Shop</h1> </nav>
+    <header>
+		<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="" /></button>
+		<nav>
+			<!-- de sluit button -->
+			<!-- de button is ook niet relevant voor screenreaders -->
+			<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" /></button>
 
-<main> 
- <section>
-<img src="images/merch/tshirt-blauw.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">   
-<p>FLEMMING T-shirt Tour 2024 Blauw</p>
-<p>€12,95</p>
-<img src="images/merch/tshirt-tour-zwart.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<p>FLEMMING T-shirt Tour 2024 Zwart</p>
-<p>€12,95</p>
-</section>
+			<ul>
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="shop.html"> Shop</a></li>
+			</ul>
+		</nav>
+		<a href="index.html"><img src="images/flemming-logo.png"
+				alt="Flemming logo" width="40" height="45"></a>
+		<button><img src="images/winkelwagen.png" width="15" height="15" alt="winkelwagen icoon"></button>
+	</header>
+    <!-- Bron: Adonnah, link embedden in image <img src="readme-images/code-adonnah.jpeg"> -->
 
-<section>
-<img src="images/merch/hoodie-tour-zwart.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/pet.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/hoodie-blauw.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/hoodie-paars-kids.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/hoodie-paars.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/hoodie-zwart-kids.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/hoodie-zwart-oversized.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/sokken.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-foto.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat"width="200" height="200">
-<img src="images/merch/tshirt-paars-regular.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-foto-kids.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-wit-kids.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-wit-oversized.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-wit-regular.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-zwart-oversized.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tshirt-zwart-regular.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
-<img src="images/merch/tote-bag.jpg" alt="Foto van Flemming (de artiest) die op een glazen plaat staat" width="200" height="200">
 
- </section>   
-</main>
-<footer> 
-    <img src="images/flemming-logo-tekst.png" alt="Foto van Flemming (de artiest) die op een glazen plaat staat">
-    
-    <h4>Management</h4>
-    <p>Story Management</p>
-    <p>info@storymgmt.com</p>
-    
-    <h4>Boekingen</h4>
-    <p>Agents after all</p>
-    <p>www.agentsafterall.nl</p>
-    <p>celina@agentsafterall.nl</p>
-    
-    <h4>Platenmaatschappij</h4>
-    <p>8ballmusic</p>
-    <p>www.8ballmusic.nl</p>
-    <p>info@8ballmusic.nl</p>
-    
-    <h4>Publisher</h4>
-    <p>Cloud9 publishing</p>
-    <p>www.cloud9music.nl</p>
-    <p>info@cloud9music.nl</p>
-    
-    <h4>Klantenservice</h4>
-    <p>Klantenservice Webshop</p>
-    <p>klantenservice@flemmingmusic.nl</p>
-    
-    <p>Powered by for the night</p>
-    <p>Algemene voorwaarden</p>
-    <p>Retour beleid</p>
-    <p>KVK89783867</p>
-    </footer>
+    <main>
+        <div class="wrapper">
+        <span class="limited regular">LIMITED EDITION</span>
+        <img src="images/merch/coach-jack.png" alt="Zwart jasje limited edition"
+            width="200" height="200">
+        <p class="bold">FLEMMING Coach Jack</p>
+        <p class="regular">€99,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <span class="tour regular">CLUBTOUR</span>
+        <img src="images/merch/tshirt-blauw.jpg" alt="blauw shirt 2024 tour"
+            width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Tour 2024 Blauw</p>
+        <p class="regular">€12,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <span class="tour regular">CLUBTOUR</span>
+        <img src="images/merch/tshirt-tour-zwart.jpg" alt="zwart shirt 2024 tour"
+            width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Tour 2024 Zwart</p>
+        <p class="regular">€12,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <span class="tour regular">CLUBTOUR</span>
+        <img src="images/merch/hoodie-tour-zwart.jpg" alt="zwarte hoodie 2024 tour"
+            width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Tour 2024 Zwart</p>
+        <p class="regular">€25,00</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/pet.jpg" alt="pet met logo" width="200"
+            height="200">
+        <p class="bold">FLEMMING Cap</p>
+        <p class="regular">€19,95</p>
+        <button class="regular">Toevoegen aan winkelwagen</button>
+
+        <img src="images/merch/hoodie-blauw.jpg" alt="hoodie blauw logo"
+            width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Blauw</p>
+        <p class="regular">€49,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/hoodie-paars-kids.jpg" alt="hoodie logo paars kinderen"
+            width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Paars Kids</p>
+        <p class="regular">€49,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/hoodie-paars.jpg" alt="hoodie paars logo"
+            width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Paars Regular</p>
+        <p class="regular">€49,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/hoodie-zwart-kids.jpg" alt="hoodie logo zwart kinderen"
+            width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Zwart Kids</p>
+        <p class="regular">€49,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/hoodie-zwart-oversized.jpg"
+            alt="zwart oversized hoodie logo" width="200" height="200">
+        <p class="bold">FLEMMING Hoodie Zwart Oversized</p>
+        <p class="regular">€49,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/sokken.jpg" alt=" witte sokken met logo"
+            width="200" height="200">
+        <p class="bold">FLEMMING Sokken</p>
+        <p class="regular">€9,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-foto.jpg" alt="wit t-shirt met foto"
+            width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Foto Wit</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-paars-regular.jpg"
+            alt="t-shirt paars logo" width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Paars Regular</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-foto-kids.jpg" alt="wit t-shirt kinderen met foto "
+            width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Wit Foto Kids</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-wit-kids.jpg" alt="Flemming T-shirt Wit Kids"
+            width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Wit Kids</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-wit-oversized.jpg"
+            alt="Flemming T-shirt Wit Oversized" width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Wit Oversized</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-wit-regular.jpg"
+            alt="wit shirt logo" width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Wit Regular</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+
+        <img src="images/merch/tshirt-zwart-oversized.jpg"
+            alt="zwart oversized shirt logo" width="200" height="200">
+        <p class="bold">FLEMMING T-shirt Zwart Oversized</p>
+        <p class="regular">€34,95</p>
+        <button class="regular">Opties selecteren</button>
+    </div>
+    </main>
+
+    <div class="tekst">
+		<footer>
+			<img src="images/flemming-logo-tekst.png"
+				alt="Flemming logo">
+
+			<div class="flex-container">
+				<a href="https://open.spotify.com/artist/0YLlTW9rW7ZCy2cA2u3RYk"><img src="images/spotify-white.webp"
+						width="15" height="15" alt="spotify logo wit"></a>
+				<a href="https://www.youtube.com/channel/UCcC8tkgM2xYOGW5Xx4pvqUg"> <img src="images/youtube-white.webp"
+						width="15" height="15" alt="youtube logo wit"></a>
+				<a href="https://www.tiktok.com/@flemmingmusic"><img src="images/tiktok-white.webp" width="15"
+						height="15" alt="tiktok logo wit"></a>
+				<a href="https://music.apple.com/nl/artist/flemming/1439909993"> <img src="images/itunes.webp"
+						width="15" height="15" alt="itunes logo wit"></a>
+				<a href="https://www.facebook.com/Flemmingmusic"><img src="images/facebook-white.webp" width="15"
+						height="15" alt="facebook logo wit"></a>
+			</div>
+			<!-- Bron: Adonnah, link embedden in image <img src="readme-images/code-adonnah.jpeg"> -->
+			<ul>
+				<li>
+					<h4 class="bold">Management</h4>
+				</li>
+				<li>
+					<p class="regular">Story Management</p>
+				</li>
+				<li>
+					<p class="regular">info@storymgmt.com</p>
+				</li>
+
+				<li>
+					<h4 class="bold">Boekingen</h4>
+				</li>
+				<li>
+					<p class="regular">Agents after all</p>
+				</li>
+				<li>
+					<p class="regular">www.agentsafterall.nl</p>
+				</li>
+				<li>
+					<p class="regular">celina@agentsafterall.nl</p>
+				</li>
+
+				<li>
+					<h4 class="bold">Platenmaatschappij</h4>
+				</li>
+				<li>
+					<p class="regular">8ballmusic</p>
+				</li>
+				<li>
+					<p class="regular">www.8ballmusic.nl</p>
+				</li>
+				<li>
+					<p class="regular">info@8ballmusic.nl</p>
+				</li>
+
+
+				<li>
+					<h4 class="bold">Publisher</h4>
+				</li>
+				<li>
+					<p class="regular">Cloud9 publishing</p>
+				</li>
+				<li>
+					<p class="regular">www.cloud9music.nl</p>
+				</li>
+				<li>
+					<p class="regular">info@cloud9music.nl</p>
+				</li>
+
+				<li>
+					<h4 class="bold">Klantenservice</h4>
+				</li>
+				<li>
+					<p class="regular">Klantenservice Webshop</p>
+				</li>
+				<li>
+					<p class="regular">klantenservice@flemmingmusic.nl</p>
+				</li>
+
+
+				<li>
+					<p class="regular">Powered by for the night</p>
+				</li>
+				<li>
+					<p class="regular">Algemene voorwaarden</p>
+				</li>
+				<li>
+					<p class="regular">Retour beleid</p>
+				</li>
+				<li>
+					<p class="regular">KVK89783867</p>
+				</li>
+			</ul>
+		</footer>
+	</div>
+<script defer src="scripts/script.js"></script>
 </body>
+
 </html>
